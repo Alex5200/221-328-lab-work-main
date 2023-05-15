@@ -1,0 +1,111 @@
+:root {
+    --pink: #ecb2ba;
+    --pink-dark: #3a3031;
+    --tape-gray: #dbd8be;
+    --tape-edge-gray: #b7b49d;
+    --transparent: rgba(255, 255, 255, 0);
+    background-color: #8294C4;
+}
+.sub{
+    font-family: Caveat, cursive; 
+    font-size: 1em; 
+    background-color: #d5e0f9; 
+    border: 0.1em solid #d5e0f9; 
+    color: #8294C4;
+}
+.paper {
+    position: relative;
+    background: linear-gradient(
+        to bottom right,
+        var(--paper-dark),
+        20%,
+        var(--transparent)
+      ),
+      var(--paper-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Caveat", cursive;
+    font-size: 1.2em;
+    box-shadow: var(--shadow-size) var(--shadow-size) 2px var(--paper-dark);
+    margin: 5%;
+    margin-top: 50px;
+  }
+
+  .paper::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background: linear-gradient(
+        var(--transparent),
+        50%,
+        var(--paper-dark),
+        51%,
+        var(--transparent)
+      ),
+      linear-gradient(
+        to right,
+        var(--transparent),
+        50%,
+        var(--paper-dark),
+        51%,
+        var(--transparent)
+      );
+  }
+  .blue {
+    --paper-color: #d5e0f9;
+    --paper-dark: #c2d0ea;
+    --shadow-size: 3px;
+    --transparent: rgba(213, 224, 249, 0);
+  }
+.menu{
+    margin-right: 0.5em;
+}
+.navbar a{
+    background-color: #DBDFEA;
+    color: #8294C4;
+}
+.top-tape{
+    position: absolute;
+    height: 4vmin;
+    top: -5px;
+    width: 105%;
+    background-color: var(--tape-gray);
+    border-right: 2px dotted var(--tape-edge-gray);
+    border-left: 2px dotted var(--tape-edge-gray);
+    opacity: 0.7;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 1.3em;
+    width: 100%;
+    
+    background-color: #DBDFEA;
+    color: #8294C4;
+    border: 0.2em #8294C4 solid ;
+}
+.display-view{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    text-align: center;
+    width: 50%;
+}
+a, p, h1, h2, h3, h4, h5, h6{
+    font-family: 'Darumadrop One', cursive;
+}
+.gallery{
+    text-align: center;
+    font-size: 1em;
+    width: 50%;
+}
+.right{
+    width: 20%;
+    background-color: #DBDFEA;
+    color: #8294C4;
+    font-size: 1.2em;
+    border: 0.2em #8294C4 solid;
+}

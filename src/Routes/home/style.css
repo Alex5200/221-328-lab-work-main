@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Darumadrop One', cursive;
+}
+.display-view{
+    display: flex;
+    flex-direction: row;
+    
+}
+.img-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imghtml{
+    width: 45%;
+    height: auto;
+}
+.imgcss{
+    width: 45%;
+    height: auto;
+}
+h1{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 3em;
+}
+h4{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 2em;
+}
+h2{
+    font-family: 'Darumadrop One', cursive;
+    font-size: 2.5rem;
+}
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+    .menu a {
+        background-color: #BDB76B;
+        padding: 8px;
+        margin-top: 7px;
+        display: block;
+        width: 100%;
+        color: black;
+    }
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 20px 20px;
+}
+
+.right {
+    background-color: #8FBC8F;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    font-family: 'Darumadrop One', cursive;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+#para1 {
+    color: red;
+    }
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
