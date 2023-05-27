@@ -6,6 +6,9 @@
     --transparent: rgba(255, 255, 255, 0);
     background-color: #8294C4;
 }
+.m1em{
+    margin: 1em;
+}
 .sub{
     font-family: Caveat, cursive; 
     font-size: 1em; 
@@ -61,6 +64,9 @@
   }
 .menu{
     margin-right: 0.5em;
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
 }
 .navbar a{
     background-color: #DBDFEA;
@@ -80,7 +86,8 @@
     text-decoration: none;
     font-size: 1.3em;
     width: 100%;
-    
+    text-align: center;
+    padding: 0.3em;
     background-color: #DBDFEA;
     color: #8294C4;
     border: 0.2em #8294C4 solid ;
@@ -92,7 +99,8 @@
 }
 .main{
     text-align: center;
-    width: 50%;
+    width: 20%;
+    margin-right: auto;
 }
 a, p, h1, h2, h3, h4, h5, h6{
     font-family: 'Darumadrop One', cursive;
@@ -103,7 +111,10 @@ a, p, h1, h2, h3, h4, h5, h6{
     width: 50%;
 }
 .right{
+    margin: 1em;
     width: 20%;
+    text-align: center;
+    margin-right: auto;
     background-color: #DBDFEA;
     color: #8294C4;
     font-size: 1.2em;
